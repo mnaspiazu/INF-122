@@ -1,0 +1,17 @@
+body
+{
+    background-color: darkgrey;
+}
+h1
+{
+    font-size: 25px;
+    font-family:sans-serif;
+}
+.imagen
+{
+    max-width: 30%;
+}
+.enviar
+{
+    background-color:aqua; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
