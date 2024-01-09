@@ -57,6 +57,50 @@
                 cursor: pointer;
                 margin: 100px 0 100px 0;
             }
+            .more-info {
+            display: grid;
+            background-color: var(--light-purple);
+            width: 100%;
+            }
+            .card-container {
+            display: flex;
+            align-items: center;
+            margin: 16px 0 16px 0;
+            }
+            .icons-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin: 50px 260px 50px 260px;
+                justify-content: center;
+            }
+            .card-icon {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: var(--white);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 28px;
+            }
+            .card-icon figure img {
+                width: 50px;
+                height: 50px;
+            }
+                .icon-text h2 {
+                font-size: var(--sm);
+                margin: 0;
+            }
+            .icon-text p {
+                font-size: var(--sm);
+                margin: 0;
+            }
+            @media (max-width: 720px) {
+                .icons-container {
+                    grid-template-columns: repeat(1, 1fr);
+                    margin: 50px 10px 50px 10px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -72,7 +116,7 @@
                             <div class="card-container">
                                 <div class="card-icon">
                                     <figure>
-                                        <img src="./incons/bx_bxs-book-heart.svg" alt="" class="logo">
+                                        <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
                                     </figure>
                                 </div>
                             <div class="icon-text">
@@ -80,6 +124,40 @@
                                 <p class="Icont-text">Guide your decisions with our wealth of research</p>
                                 </div>
                             </div>
+                        <div class="card-container">
+                            <div class="card-icon">
+                                <figure>
+                                    <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                                </figure>
+                            </div>
+                        <div class="icon-text">
+                            <h2 class="Icon-title">Research Materials</h2>
+                            <p class="Icont-text">Guide your decisions with our wealth of research</p>
+                            </div>
+                        </div>
+                    <div class="card-container">
+                        <div class="card-icon">
+                            <figure>
+                                <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                            </figure>
+                        </div>
+                    <div class="icon-text">
+                        <h2 class="Icon-title">Research Materials</h2>
+                        <p class="Icont-text">Guide your decisions with our wealth of research</p>
+                        </div>
+                    </div>
+                <div class="card-container">
+                    <div class="card-icon">
+                        <figure>
+                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                        </figure>
+                    </div>
+                <div class="icon-text">
+                    <h2 class="Icon-title">Research Materials</h2>
+                    <p class="Icont-text">Guide your decisions with our wealth of research</p>
+                    </div>
+                </div>
+        </section>
             </div>
         </div>
     </body>
